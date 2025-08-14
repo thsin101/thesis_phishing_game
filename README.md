@@ -3,7 +3,7 @@ This project is part of the bachelor thesis of Thomas Sinner.
 
 The project is an interactive educational game designed to raise awareness of phishing. It simulates a spear phishing process in which players must identify suspicious emails and analyze social media information. The game consists of various missions that are completed step by step.
 
-The game will be public available until the 31.10.2025 under the following Link: [INSERT]
+The game will be public available to play until the 31.10.2025 under the following Link: [INSERT]
 # Project structure
 - **Data Analysis**  
   Located in the `data_analysis` folder, it contains:
