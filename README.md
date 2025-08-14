@@ -41,5 +41,5 @@ The start of the game beings with a guidance robot, that explains the whole cont
 The user need to select the mission, he wants to play:
 <img width="1288" height="347" alt="Bild2" src="https://github.com/user-attachments/assets/aa0550b0-947f-4dd2-8809-ad8678a63c2f" />
 
-Mission 1, where the user needs to identify the phishing mails:
-<img width="1301" height="858" alt="Bild3" src="https://github.com/user-attachments/assets/18609797-bd6a-4c75-bafa-296d5bae30c3" />
+Mission 2, where the user needs to identify the information that should never be shared publicly:
+<img width="913" height="911" alt="Bild3" src="https://github.com/user-attachments/assets/2c15c943-1758-4e96-b9fe-510794b574b0" />
