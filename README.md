@@ -1,7 +1,9 @@
 # Project description
 This project is part of the bachelor thesis of Thomas Sinner.
+
 The project is an interactive educational game designed to raise awareness of phishing. It simulates a spear phishing process in which players must identify suspicious emails and analyze social media information. The game consists of various missions that are completed step by step.
 
+The game will be public available until the 31.10.2025 under the following Link: [INSERT]
 # Project structure
 - **Data Analysis**  
   Located in the `data_analysis` folder, it contains:
@@ -31,3 +33,13 @@ Build for production
 <pre>npm run build</pre>
 
 The production build will be output to the dist folder.
+# Some Insights into the game
+
+The start of the game beings with a guidance robot, that explains the whole context:
+<img width="1918" height="943" alt="Bild1" src="https://github.com/user-attachments/assets/b1254836-38a6-45b3-b8d8-854e7553c28d" />
+
+The user need to select the mission, he wants to play:
+<img width="1288" height="347" alt="Bild2" src="https://github.com/user-attachments/assets/aa0550b0-947f-4dd2-8809-ad8678a63c2f" />
+
+Mission 1, where the user needs to identify the phishing mails:
+<img width="1301" height="858" alt="Bild3" src="https://github.com/user-attachments/assets/18609797-bd6a-4c75-bafa-296d5bae30c3" />
