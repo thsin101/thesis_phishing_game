@@ -1,5 +1,5 @@
 # Project description
-This project is part of the bachelor thesis of Thomas Sinner.
+This repository contains the spear-phishing game for the bachelor thesis of Thomas Sinner.
 
 The project is an interactive educational game designed to raise awareness of phishing. It simulates a spear phishing process in which players must identify suspicious emails and analyze social media information. The game consists of various missions that are completed step by step.
 
