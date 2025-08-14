@@ -1,0 +1,256 @@
+/* Mission1 General Layout */
+.mission1-container {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f7fa;
+  padding: 24px;
+  border-radius: 8px;
+  width: 90vw;
+  max-width: 1200px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mission1-header {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dee5ed;
+}
+
+.mission1-header h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin: 0 0 4px 0;
+}
+
+.mission1-header p {
+  font-size: 16px;
+  color: #576c7f;
+  margin: 0;
+}
+
+.mission1-content {
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid #dee5ed;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 16px;
+}
+
+/* Email List Pane */
+.email-list-container {
+  width: 35%;
+  border-right: 1px solid #dee5ed;
+  display: flex;
+  flex-direction: column;
+}
+
+.email-list-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid #dee5ed;
+}
+
+.email-list-header h3 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.email-list {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.email-item {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f3f7;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.email-item:hover {
+  background-color: #f8fafc;
+}
+
+.email-item.active {
+  background-color: #e4eaf1;
+  border-left: 3px solid #3498db;
+  padding-left: 13px;
+}
+
+.email-item.classified {
+  opacity: 0.6;
+  background-color: #f0f0f0;
+}
+
+.email-from {
+  font-weight: 600;
+  color: #34495e;
+  font-size: 14px;
+}
+
+.email-subject {
+  color: #576c7f;
+  font-size: 14px;
+  margin: 4px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.email-date {
+  font-size: 12px;
+  color: #95a5a6;
+  text-align: right;
+}
+
+/* Email View Pane */
+.email-view-container {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-view {
+  text-align: center;
+  color: #95a5a6;
+  padding: 40px;
+  font-size: 18px;
+}
+
+.email-view {
+  padding: 24px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.view-header {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dee5ed;
+}
+
+.view-header h3 {
+  font-size: 22px;
+  margin: 0 0 12px 0;
+}
+
+.view-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #576c7f;
+}
+
+.view-body {
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #34495e;
+  white-space: pre-wrap;
+}
+
+/* Actions & Feedback */
+.actions {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #dee5ed;
+}
+
+.actions button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-right: 12px;
+}
+
+.actions button:disabled {
+  background-color: #ccc;
+}
+
+.report-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.report-btn:hover {
+  background-color: #c0392b;
+}
+
+.safe-btn {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.safe-btn:hover {
+  background-color: #27ae60;
+}
+
+.feedback {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.feedback.correct {
+  background-color: #eafaf1;
+  color: #27ae60;
+}
+
+.feedback.incorrect {
+  background-color: #fbeae8;
+  color: #c0392b;
+}
+
+.correct {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.incorrect {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.explanation {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #c3e6cb; /* Match the border color of .correct */
+  color: #155724; /* Match the text color of .correct */
+  font-size: 0.9em;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+/* Footer */
+.mission1-footer {
+  padding-top: 16px;
+  margin-top: 16px;
+  border-top: 1px solid #dee5ed;
+  text-align: right;
+}
+
+.done-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.done-btn:hover {
+  background-color: #2980b9;
+}
+
+.done-btn:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}

@@ -1,0 +1,260 @@
+/* Mission2.css */
+
+.mission2-container {
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f2ee;
+  color: #333;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission2-container.blur {
+  filter: blur(5px);
+  pointer-events: none;
+}
+
+.profile-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover; /* In case you add a picture */
+  background-color: #ccc; /* Placeholder */
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #191919;
+}
+
+.profile-info p {
+  margin: 5px 0 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.profile-location {
+  font-size: 14px;
+  font-style: italic;
+  color: #888;
+}
+
+.experience-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.experience-section h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.activity-item {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.activity-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0 0 5px 0;
+}
+
+.activity-date {
+  font-size: 12px;
+  color: #888;
+  margin: 0;
+}
+
+.experience-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  background-color: #eee; /* Placeholder */
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #777;
+}
+
+.experience-details h3 {
+  margin: 0 0 5px;
+  font-size: 18px;
+}
+
+.experience-details p {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.experience-location {
+  font-style: italic;
+}
+
+.experience-description {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.mission2-footer {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.done-btn {
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.done-btn:hover {
+  background-color: #005582;
+}
+
+.clickable {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.clickable:hover {
+  background-color: #e9ecef;
+}
+
+.clicked {
+  background-color: #d4edda; /* Light green */
+  color: #155724;
+}
+
+.activity-item-container,
+.experience-item-container,
+.profile-info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.activity-item, .experience-item, .profile-info-item p {
+  flex-grow: 1;
+}
+
+.explanation-box {
+  margin-left: 20px;
+  padding: 12px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  flex-basis: 300px;
+  flex-shrink: 0;
+  font-size: 0.9em;
+  color: #495057;
+}
+
+.profile-info .explanation-box {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.experience-description p {
+  margin-bottom: 5px;
+}
+
+.mission2-footer {
+  text-align: center;
+}
+
+.instruction-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000; /* Ensure it's on top */
+}
+
+.instruction-modal {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  max-width: 500px;
+  text-align: center;
+  color: #333;
+}
+
+.instruction-modal h2 {
+  margin-top: 0;
+  color: #1a253c;
+}
+
+.instruction-modal p {
+  line-height: 1.6;
+}
+
+.instruction-modal button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.instruction-modal button:hover {
+  background-color: #0056b3;
+}
